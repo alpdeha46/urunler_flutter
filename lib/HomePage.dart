@@ -219,6 +219,7 @@ class UrunDetay extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            
             Text(
               "Ürün Adı: " + urun.ad ?? "",
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
